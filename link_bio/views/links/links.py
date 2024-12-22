@@ -1,10 +1,10 @@
 import reflex as rx
 from link_bio.components.link_button import link_button 
-from link_bio.components.title import title
+from link_bio.styles.styles import Size as Size
 
 def links() -> rx.Component:
   return rx.vstack(
-    title("Mis proyectos"),
+    rx.heading("Mis proyectos", color="white", size="7"),
     link_button(
       "code",
       "Proyectos Python",
@@ -35,8 +35,7 @@ def links() -> rx.Component:
       "Proyectos completos usando CI/CD e IaC.", 
       "https://github.com/ehoyos89",
       ),
-
-    title("Mis certificaciones"),
+    rx.heading("Mis certificaciones", color="white", size="7"),
     link_button(
       "cloud-cog",
       "AWS Solutions Architech Asociate",
@@ -51,5 +50,6 @@ def links() -> rx.Component:
       ),
 
     width="100%",
-    spacing="6"
+    spacing="6",
+    margin_top=Size.SMALL.value
    )

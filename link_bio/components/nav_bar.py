@@ -17,7 +17,6 @@ def nav_bar() -> rx.Component:
                     rx.hstack(
                         rx.icon(tag="square-terminal", color="black"),
                         rx.text("bash",
-                            font_family="JetBrains Mono",
                             color="#181926",
                             ),
                         bg="#91d7e3",
@@ -30,7 +29,6 @@ def nav_bar() -> rx.Component:
                         rx.icon(tag="user-round", color="black"),
                         rx.text(
                             "ehoyos/",
-                                font_family="JetBrains Mono",
                                 color="#181926",
                             ),
                         bg="#f5a97f",
@@ -42,7 +40,6 @@ def nav_bar() -> rx.Component:
                     rx.hstack(
                         rx.icon(tag="split", color="black"),
                         rx.text("main",
-                                font_family="JetBrains Mono",
                                 color="#181926", 
                                 ),
                         bg="#eed49f",
@@ -57,7 +54,6 @@ def nav_bar() -> rx.Component:
                 rx.icon(tag="chevron-right", color="#8aadf4"),
                 rx.text(
                     "cowsay \"Bienvenido\"",
-                    font_family="JetBrains Mono",
                     color="#cad3f5",
                 ),
             ),     

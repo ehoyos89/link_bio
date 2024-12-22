@@ -10,7 +10,7 @@ class Size(Enum):
   MEDIUM = "1.8em"
   BIG = "3em"
 
-#Constants
+# Constantes
 MAX_WIDTH = "600px"
 
 # Estilo global
@@ -33,18 +33,15 @@ BASE_STYLE = {
 # Estilos a nivel de objeto
 button_tittle_style = dict(
   font_size=Size.DEFAULT.value,
-  font_family="Montserrat",
   font_weight="bold",
   color="white",
 )
 navbar_title_style = dict(
   font_size=Size.DEFAULT.value,
-  font_family="JetBrains Mono",
   color="#181926",
 )
 button_body_style = dict(
   font_size=Size.SMALL.value,
-  font_family="JetBrains Mono",
   font_weight="regular",
   color="white",
 )
@@ -52,7 +49,7 @@ button_body_style = dict(
 title_style = dict(
   width="100%",
   font_size=Size.MEDIUM.value,
-  font_family="Montserrat",
-  padding_top=Size.SMALL.value
+  padding_top=Size.SMALL.value,
+  Color="white",
 )
 

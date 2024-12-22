@@ -4,7 +4,7 @@ from link_bio.styles.styles import Size as Size
 def footer() -> rx.Component:
   return rx.flex(
     rx.flex(
-      rx.text("Sitio alojado en un 🪣 S3 "),
+      rx.text("Sitio alojado en un 🪣 S3 de AWS"),
       rx.text("Powered by ", rx.link("Reflex", href="https://reflex.dev", is_external=True)),
       spacing="1",
       align="center",

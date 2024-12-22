@@ -18,8 +18,8 @@ def header() -> rx.Component:
           ),
           
           rx.vstack(
-                rx.heading("Erick Hoyos", size="7", font_family="Montserrat"),
-                rx.text("erick.hoyos@outlook.com", color="#8aadf4", font_family="Montserrat"),
+                rx.heading("Erick Hoyos", size="7", color="white"),
+                rx.text("erick.hoyos@outlook.com", color="#8aadf4"),
                 rx.hstack(
                   link_icon("github", "https://github.com/ehoyos89"),
                   link_icon("twitter", "https://x.com/HoyosErick89"),
@@ -37,7 +37,6 @@ def header() -> rx.Component:
       configuración y troubleshoting de equipos Cisco, cableado estructurado de redes y
       administración de servidores Linux.""",
       color="#cad3f5",
-      font_family="JetBrains Mono"
     ),
     spacing="5",
     width="100%",
