@@ -23,7 +23,7 @@ def header() -> rx.Component:
                 rx.hstack(
                   link_icon("github", "https://github.com/ehoyos89"),
                   link_icon("twitter", "https://x.com/HoyosErick89"),
-                  link_icon("instagram", "https://x.com/HoyosErick89"),
+                  # link_icon("instagram", "https://x.com/HoyosErick89"),
                   link_icon("linkedin", "https://www.linkedin.com/in/erick-sebastián-hoyos-arízaga-544a71339"),
                   align_items="start",
                 ),
@@ -31,11 +31,9 @@ def header() -> rx.Component:
           ),
     ),
     rx.text(
-      """Soy ingeniero en Redes y Telecomunicaciones graduado de la 
-      Universidad Privada Domingo Savio de la ciudad de Tarija, con experiencia 
-      en soporte de TI, diseño de soluciones en AWS, programación de scripts en Python, 
-      configuración y troubleshoting de equipos Cisco, cableado estructurado de redes y
-      administración de servidores Linux.""",
+      """Ingeniero en Redes y Telecomunicaciones, con experiencia 
+      en soporte de TI, diseño de soluciones en Amazon Web Services y desarrollo de scripts en Python 
+      para automatización de tareas.""",
       color="#cad3f5",
     ),
     spacing="5",
