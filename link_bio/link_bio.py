@@ -7,7 +7,7 @@ from link_bio.views.links.links import links
 from link_bio.components.footer import footer
 import link_bio.styles.styles as styles
 from link_bio.styles.styles import Size as Size
-
+from link_bio.views.aws.aws import aws
 
 # class State(rx.State):
 #    pass
@@ -31,8 +31,11 @@ def index() -> rx.Component:
     )
 
 
+
+
 app = rx.App(
     style=styles.BASE_STYLE
 )
 app.add_page(index)
+app.add_page(aws)
 app._compile()

@@ -15,26 +15,27 @@ def links() -> rx.Component:
       "cloud-cog",
       "Proyectos AWS", 
       "Diseños de arquitecturar para diferentes casos de uso.", 
-      "https://github.com/ehoyos89",
+      "/aws",
+      is_external=False
       ),
-    link_button(
-      "network",
-      "Proyectos Networking", 
-      "Diseños de topologías de red avanzadas.", 
-      "https://github.com/ehoyos89",
-      ),
-    link_button(
-      "shield-check",
-      "Proyectos Cyberseguridad", 
-      "Ejercicios de pentesting y configuraciones de seguridad de red.", 
-      "https://github.com/ehoyos89",
-      ),
-    link_button(
-      "infinity",
-      "Proyectos DevOps", 
-      "Proyectos completos usando CI/CD e IaC.", 
-      "https://github.com/ehoyos89",
-      ),
+    # link_button(
+    #   "network",
+    #   "Proyectos Networking", 
+    #   "Diseños de topologías de red avanzadas.", 
+    #   "https://github.com/ehoyos89",
+    #   ),
+    # link_button(
+    #   "shield-check",
+    #   "Proyectos Cyberseguridad", 
+    #   "Ejercicios de pentesting y configuraciones de seguridad de red.", 
+    #   "https://github.com/ehoyos89",
+    #   ),
+    # link_button(
+    #   "infinity",
+    #   "Proyectos DevOps", 
+    #   "Proyectos completos usando CI/CD e IaC.", 
+    #   "https://github.com/ehoyos89",
+    #   ),
     rx.heading("Mis certificaciones", color="white", size="7"),
     link_button(
       "cloud-cog",
