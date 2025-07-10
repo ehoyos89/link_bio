@@ -12,6 +12,7 @@ class Size(Enum):
 
 # Constantes
 MAX_WIDTH = "600px"
+CONTENT_MAX_WIDTH = "800px"
 
 # Estilo global
 BASE_STYLE = {
