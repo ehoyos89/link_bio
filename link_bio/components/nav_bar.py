@@ -7,7 +7,7 @@ def nav_bar() -> rx.Component:
         rx.vstack(
             rx.hstack(
                 rx.box(
-                    rx.icon(tag="coffee"),
+                    rx.icon(tag="circle-play"),
                     bg="#8aadf4",
                     padding=Size.VERY_SMALL.value,
                     border_radius=Size.VERY_SMALL.value,
